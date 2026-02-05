@@ -1,0 +1,49 @@
+.home-container {
+  position: relative;
+  min-height: calc(100vh - 70px);
+  background: linear-gradient(180deg, #5f7fb8, #6f8fc9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Logo gigante de fondo */
+.home-logo {
+  position: absolute;
+  width: 390px;
+  max-width: 85%;
+  opacity: 0.20;
+  z-index: 1;
+  user-select: none;
+}
+
+/* Grid de botones */
+.home-grid {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  width: 80%;
+  max-width: 900px;
+}
+
+/* Botones/cuadros */
+.home-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 14px;
+  padding: 32px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #12345f;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.home-card:hover {
+  transform: translateY(-6px);
+  background: #7bff6a;
+  box-shadow: 0 16px 35px rgba(0,0,0,0.25);
+}

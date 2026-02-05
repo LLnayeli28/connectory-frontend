@@ -1,0 +1,12 @@
+.bodega-container {
+  background: white;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.bodega-container h2 {
+  margin-bottom: 20px;
+  color: var(--azul-oscuro);
+}
